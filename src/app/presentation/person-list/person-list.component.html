@@ -1,0 +1,5 @@
+<button class="btn btn-primary" (click)="onBtnClicked()">Get Persons</button>
+<hr>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let person of persons">{{person.name}}</li>
+</ul>
